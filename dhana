@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Registering!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 500px;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50; /* Green color */
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50; /* Green color */
+            color: #ffffff;
+            padding: 15px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #45a049; /* Darker green */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You for Registering!</h1>
+        <p>We appreciate your interest. Your registration was successful!</p>
+        <p>We will get in touch with you soon with more details.</p>
+        <p>In the meantime, you can explore more on our website or follow us on social media.</p>
+        <a href="https://yourwebsite.com" class="btn">Visit Our Website</a>
+        <a href="https://www.facebook.com/yourpage" class="btn" target="_blank">Follow Us on Facebook</a>
+    </div>
+</body>
+</html>
